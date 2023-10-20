@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Itim";
+    src: url("../font/Itim-Regular.ttf");
+}
+
+.start-btn {
+    -fx-background-color: #BEB9F6;
+    -fx-text-fill: #1A0F91;
+    -fx-font-family: "Itim";
+    -fx-font-size: 16px;
+}
+
+.start-btn:hover {
+    -fx-background-color: #efb0c9;
+    -fx-font-size: 20px;
+    -fx-font-weight: 900;
+}
