@@ -1,4 +1,4 @@
-package DictionaryApp.Controller;
+package DictionaryApp.Controllers;
 
 import javafx.fxml.Initializable;
 
@@ -8,6 +8,5 @@ import java.util.ResourceBundle;
 public class SearchController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
     }
 }

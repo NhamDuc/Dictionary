@@ -1,4 +1,4 @@
-package DictionaryApp.Controller;
+package DictionaryApp.Controllers;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -17,7 +17,6 @@ import java.util.ResourceBundle;
 public class StartController implements Initializable {
     private Button searchBtn, addBtn, transBtn, gameBtn, closeBtn;
     private AnchorPane container;
-    private Stage stage;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         searchBtn.setOnAction(new EventHandler<ActionEvent>() {
@@ -30,7 +29,6 @@ public class StartController implements Initializable {
         closeBtn.setOnMouseClicked(e -> {
             e.consume();
             System.exit(0);
-            stage.close();
         });
     }
 
